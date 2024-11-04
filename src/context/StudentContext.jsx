@@ -8,7 +8,7 @@ export const StudentProvider = ({ children }) => {
   useEffect(() => {
     const fetchStudents = async () => {
       try {
-        const response = await fetch('https://dpaste.com/DBQS4CGRZ.txt'); // Use /raw to get plain JSON
+        const response = await fetch('https://dpaste.com/DBQS4CGRZ.txt');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

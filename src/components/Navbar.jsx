@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import StudentList from '../pages/StudentList';
+import StudentDetails from '../pages/StudentDetails';
 
 function Navbar() {
   return (

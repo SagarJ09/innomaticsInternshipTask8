@@ -27,7 +27,7 @@ function StudentForm({ onClose }) {
         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
         required
       />
-      {/* Add other fields similarly */}
+      
       <button type="submit">Register Student</button>
     </form>
   );

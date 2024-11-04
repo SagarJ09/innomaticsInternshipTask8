@@ -3,10 +3,11 @@ import React from 'react';
 const Dashboard = ({ totalStudents }) => {
   return (
     <div>
-      <h1>Dashboard</h1>
-      <p>Total Students: {totalStudents}</p>
+      <h1 text--align: center > Dashboard</h1>
+      
     </div>
   );
 };
+
 
 export default Dashboard;
